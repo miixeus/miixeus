@@ -1,0 +1,163 @@
+
+#header {
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    #img-header {
+        background-image: url(../images/burguer-desktop-cut.png);
+        background-repeat: no-repeat;
+        opacity: 0.5;
+        width: 100%;
+        height: 351px;
+        position: relative;
+    }
+    .img-profile {
+        padding: 0px;
+        position: absolute;
+        width: 100%;
+        justify-content: end;
+       
+    }
+    .logo-desktop {
+        width: 100%;
+        height: 351px;
+        justify-content: center;
+        align-items: center;
+        position: absolute;   
+    }
+}
+
+#order-ticket{
+    width: 100%;
+    margin-bottom: 31px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    .box-orders {
+        width: 100%;
+        height: 80px;
+        background-color: var(--black-1);
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 23px;
+        font-weight: 400;
+        font-family: 'Roboto';
+    }
+ }
+#order {
+    width: 100%;
+    height: 593px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 31px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    .container-one, .container-two {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+        .box-one-1 {
+            width: 50px;
+            height: 150px;
+            background-color: white;
+            border-radius: 10px 0px 0px 10px;
+            justify-content: center;
+            align-items: center;
+            .code {
+                display: flex;
+                color: rgb(0, 0, 0);
+                flex-direction: column;
+                transform: rotate(-90deg);
+                width: 137px;
+                height: 28px;
+                p {
+                    font-size: 24px;
+                    font-family: 'Roboto';
+                }
+            }
+         }
+        .box-center {
+            flex-direction: column;
+            position: relative;
+            width: 300px;
+            height: 150px;
+            background-color: white;
+            border-radius: 0px 10px 10px 0px;
+            justify-content: flex-start;
+            align-items: flex-start;  
+            .order-details {
+                width: 235px;
+                height: 33px;
+                background-color: var(--red-0);
+                justify-content: center;
+                align-items: center;
+                font-size: 14px;
+                color: white;
+                margin-top: 6px;
+                margin-bottom: 8px; 
+            }
+            .table {
+                display: inline-table;
+                position: relative;
+                width: 230px;
+                margin-right: 0px;
+                tr {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                /*.tab {
+                    justify-content: space-between;
+                    display: block;
+                    width: 230px;
+                }*/
+                /*
+                .tab-left {
+                    display: inline-table;
+                    font-family: 'Roboto';
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    margin-right: 50px;
+                    color:black;
+                } 
+                .tab-right {
+                    margin-left: 40px;
+                    display: inline;
+                    font-family: 'Roboto';
+                    justify-content: flex-end;
+                    align-items: flex-end;
+    
+                    color:black;
+                }*/
+            }
+
+
+ 
+        }    
+        .box-right {
+            height: 150px;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            display: flex;
+            padding: 15px;
+            border-radius: 0 10px 10px 0;
+            position: relative;
+            border-left: 2px dashed black;
+            right: 53px;
+            background-color: white;
+        }
+    }
+    
+    
+    
+        
+}
+       
